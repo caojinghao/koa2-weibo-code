@@ -9,5 +9,11 @@ router.get('/', function (ctx, next) {
 router.get('/bar', function (ctx, next) {
   ctx.body = 'this is a users/bar response'
 })
+router.post('/login', function (ctx, next) {
+  const {userName,password} = ctx.request.body
 
+  ctx.body = {
+    userName,password
+  }
+})
 module.exports = router

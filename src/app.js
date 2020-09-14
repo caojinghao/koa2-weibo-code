@@ -6,12 +6,14 @@ const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 const { isProd} = require('./utils/env')
-
+const jwtKoa = require('koa-jwt')
 
 const errViewRouter = require('./routes/view/error')
 const index = require('./routes/index')
 const users = require('./routes/users')
 
+
+const {SECRET} = require('./conf/constant')
 // error handler
 let onerrorConf = {}
 if(isProd){
@@ -21,6 +23,13 @@ if(isProd){
 }
 
 onerror(app,onerrorConf)
+// jwt 验证
+app.use(jwtKoa({
+    secret:SECRET
+}).unless({
+    path:[/^\/users\/login/] //自定义哪些目录忽略jwt验证
+}))
+
 
 // middlewares
 app.use(bodyparser({

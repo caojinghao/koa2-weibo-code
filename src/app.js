@@ -5,12 +5,22 @@ const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
+const { isProd} = require('./utils/env')
 
+
+const errViewRouter = require('./routes/view/error')
 const index = require('./routes/index')
 const users = require('./routes/users')
 
 // error handler
-onerror(app)
+let onerrorConf = {}
+if(isProd){
+    onerrorConf = {
+        redirect:'/error'
+    }
+}
+
+onerror(app,onerrorConf)
 
 // middlewares
 app.use(bodyparser({
@@ -35,6 +45,7 @@ app.use(async (ctx, next) => {
 // routes
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
+app.use(errViewRouter.routes(), errViewRouter.allowedMethods()) //404 路由注册最下面
 
 // error-handling
 app.on('error', (err, ctx) => {

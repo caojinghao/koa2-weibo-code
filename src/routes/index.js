@@ -7,7 +7,7 @@ router.get('/', async (ctx, next) => {
         isMe:true,
         blogList:[
             {
-                id:1,
+              id:1,
                 title:'aaa'
             },{
                 id:2,

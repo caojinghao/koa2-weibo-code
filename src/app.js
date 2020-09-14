@@ -5,7 +5,10 @@ const json = require('koa-json')
 const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
-const { isProd} = require('./utils/env')
+const session =require('koa-generic-session')
+const redisStore =require('koa-redis')
+const { isProd } = require('./utils/env')
+const { REDIS_CONF} = require('./conf/db')
 const jwtKoa = require('koa-jwt')
 
 const errViewRouter = require('./routes/view/error')
@@ -24,11 +27,11 @@ if(isProd){
 
 onerror(app,onerrorConf)
 // jwt 验证
-app.use(jwtKoa({
-    secret:SECRET
-}).unless({
-    path:[/^\/users\/login/] //自定义哪些目录忽略jwt验证
-}))
+// app.use(jwtKoa({
+//     secret:SECRET
+// }).unless({
+//     path:[/^\/users\/login/] //自定义哪些目录忽略jwt验证
+// }))
 
 
 // middlewares
@@ -39,6 +42,21 @@ app.use(json())
 app.use(logger())
 app.use(require('koa-static')(__dirname + '/public'))
 
+
+// session 配置
+app.keys=['wdwdwQEx!']
+app.use(session({
+    key:'weibo.sid', //cookie name 默认是 ‘koa-sid’
+    prefix:'weibo:sess:', //redis key 的前缀，默认是 “koa：sess：”
+    cookie:{
+        path:'/',
+        httpOnly:true,
+        maxAge:1000*60*60*24  //ms
+    },
+    store:redisStore({
+        all:`${REDIS_CONF.host}:${REDIS_CONF.port}`
+    })
+}))
 app.use(views(__dirname + '/views', {
     extension: 'ejs'
 }))

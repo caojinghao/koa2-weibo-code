@@ -20,9 +20,17 @@ router.get('/', async (ctx, next) => {
     })
 })
 router.get('/profile/:userName', async (ctx, next) => {
+    const session = ctx.session
+    if(session.viewNum == null){
+        session.viewNum = 0
+    }
+    session.viewNum ++
     const {userName} = ctx.params
     ctx.body = {
-        title: 'this is profile page',userName
+        title: 'this is profile page',
+        userName,
+        viewNum:session.viewNum
+        
     }
 })
 router.get('/loadMore/:userName/:pageIndex', async (ctx, next) => {

@@ -3,13 +3,15 @@ const jwt = require('jsonwebtoken')
 const {SECRET} = require('../conf/constant')
 const util = require('util')
 const verify = util.promisify(jwt.verify)
+const {loginRedirect,loginCheck} = require('../middlewares/loginChecks')
+
 
 router.prefix('/users')
 router.get('/', function (ctx, next) {
     ctx.body = 'this is a users response!'
 })  
 
-router.get('/bar', function (ctx, next) {
+router.get('/bar',loginCheck, function (ctx, next) {
     ctx.body = {title:'this is a users/bar response'}
 })
 router.post('/login', function (ctx, next) {

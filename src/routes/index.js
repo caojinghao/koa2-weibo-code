@@ -1,6 +1,15 @@
+/*
+ * @Author: your name
+ * @Date: 2020-09-08 16:40:06
+ * @LastEditTime: 2020-09-16 17:11:08
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /code-demo/koa2-weibo-code/src/routes/index.js
+ */
 const router = require('koa-router')()
+const {loginRedirect,loginCheck} = require('../middlewares/loginChecks')
 
-router.get('/', async (ctx, next) => {
+router.get('/',loginRedirect, async (ctx, next) => {
     await ctx.render('index', {
         title: 'Hello Koa 2!',
         msg:'hello world',

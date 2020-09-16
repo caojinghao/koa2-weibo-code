@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-15 15:41:11
- * @LastEditTime: 2020-09-15 17:54:16
+ * @LastEditTime: 2020-09-16 11:12:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/src/services/user.js
@@ -41,7 +41,23 @@ async function getUserInfo(userName,password){
     return formatRes
 }
 
+/**
+ * @description: 
+ * @param {string} userName 用户名
+ * @param {string} password 密码
+ * @param {string} nickName 昵称
+ * @param {number} gender 性别（1，2，3）
+ */
+async function createUser({userName,password,gender=3,nickName}){
+    const result = await User.create({
+        userName,
+        password,
+        nickName:nickName?nickName:userName,
+        gender
+    })
+    return result.dataValues
+}
     
 module.exports = {
-    getUserInfo
+    getUserInfo,createUser
 }

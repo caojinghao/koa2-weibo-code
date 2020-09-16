@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-09-08 16:40:06
+ * @LastEditTime: 2020-09-16 11:42:41
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /code-demo/koa2-weibo-code/src/app.js
+ */
 const Koa = require('koa')
 const app = new Koa()
 const views = require('koa-views')
@@ -10,6 +18,7 @@ const redisStore =require('koa-redis')
 const { isProd } = require('./utils/env')
 const { REDIS_CONF} = require('./conf/db')
 const jwtKoa = require('koa-jwt')
+const { SESSION_SECRET_KEY } = require('./conf/secretKeys')
 
 const errViewRouter = require('./routes/view/error')
 const index = require('./routes/index')
@@ -46,7 +55,7 @@ app.use(require('koa-static')(__dirname + '/public'))
 
 
 // session 配置
-app.keys=['wdwdwQEx!']
+app.keys=SESSION_SECRET_KEY
 app.use(session({
     key:'weibo.sid', //cookie name 默认是 ‘koa-sid’
     prefix:'weibo:sess:', //redis key 的前缀，默认是 “koa：sess：”

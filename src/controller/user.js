@@ -10,7 +10,8 @@ const doCrypto=require('../utils/cryp')
 const {
     registerUserNameNotExistInfo,
     registerUserNameExistInfo,
-    registerFailInfo
+    registerFailInfo,
+    loginFailInfo
 } = require('../model/ErrorInfo')
 /**
  * 用户名是否存在
@@ -32,7 +33,7 @@ async function isExist(userName){
 // 统一返回格式
 }
 /**
- * @description: 
+ * @description: 注册
  * @param {string} userName 用户名
  * @param {string} password 密码
  * @param {number} gender 性别（1，2，3）
@@ -56,6 +57,26 @@ async function register({userName,password,gender}){
     }
 }
 
+/**
+ * @description: 登录
+ * @param {string} userName 用户名
+ * @param {string} password 密码
+ * @param {string} ctx koa2 ctx
+ */
+async function login(ctx,userName,password){
+    const userInfo = await getUserInfo(userName,doCrypto(password))
+    if(!userInfo){
+    // 登录失败
+        return new ErrorModel(loginFailInfo)
+    }
+    //    登录成功
+    if(ctx.session.userInfo== null){
+        ctx.session.userInfo =userInfo
+    }
+    return new SuccessModel()
+
+}
+
 module.exports = {
-    isExist,register
+    isExist,register,login
 }

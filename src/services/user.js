@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-15 15:41:11
- * @LastEditTime: 2020-09-16 11:12:38
+ * @LastEditTime: 2020-09-29 16:28:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/src/services/user.js
@@ -57,7 +57,21 @@ async function createUser({userName,password,gender=3,nickName}){
     })
     return result.dataValues
 }
+/**
+ * @description: 删除用户
+ * @param {type} 
+ * @return {type} 
+ */
+async function deleteUser(userName){
+    const result = await User.destroy({
+        where:{
+            userName
+        }
+    })
+    return result>0
+}
+  
     
 module.exports = {
-    getUserInfo,createUser
+    getUserInfo,createUser,deleteUser
 }

@@ -4,7 +4,7 @@
  * @author Kevin
  */
  
-const { getUserInfo,createUser } = require('../services/user')
+const { getUserInfo,createUser,deleteUser } = require('../services/user')
 const { SuccessModel,ErrorModel }=require('../model/ResModel')
 const doCrypto=require('../utils/cryp')
 const {
@@ -76,7 +76,15 @@ async function login(ctx,userName,password){
     return new SuccessModel()
 
 }
+async function deleteCurUser(userName){
+    const result = await deleteUser(userName)
+    if(result){
+        return new SuccessModel()
+    }
+    return new ErrorModel(deleteUserFailInfo)
+
+}
 
 module.exports = {
-    isExist,register,login
+    isExist,register,login,deleteCurUser
 }

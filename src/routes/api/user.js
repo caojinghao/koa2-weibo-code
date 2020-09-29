@@ -34,7 +34,7 @@ router.post('/login',async(ctx,next)=>{
     // controller
     ctx.body = await login(ctx,userName,password)
 })
-// 删除当前
+// 删除当前 
 router.post('/delete',loginCheck,async(ctx,next)=>{
     if(isTest){
         // 测试账号删除自己

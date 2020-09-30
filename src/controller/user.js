@@ -12,7 +12,8 @@ const {
     registerUserNameExistInfo,
     registerFailInfo,
     loginFailInfo,
-    changeInfoFailInfo
+    changeInfoFailInfo,
+    changePasswordFailInfo
 } = require('../model/ErrorInfo')
 /**
  * 用户名是否存在
@@ -112,7 +113,38 @@ async function changeInfo(ctx,{nickName,city,picture}){
     }
     return new ErrorModel( changeInfoFailInfo )
 }
+/**
+ * @description: 修改密码
+ * @param {string} userName 
+ * @param {string} password
+ * @param {string} newPassword
+ * @return {type} 
+ */
+async function changePassword(userName,password,newPassword){
+    const result = await updateUser(
+        {
+            newPassword:doCrypto(newPassword)
+        },
+        {
+            userName,
+            password:doCrypto(password)
+        }
+    )
+    if(result){
+        return new SuccessModel()
+    }
+    return new ErrorModel(changePasswordFailInfo)
+}
+/**
+ * @description: 推出登录
+ * @param {type} 
+ * @return {type} 
+ */
+async function logout(ctx){
+    delete ctx.session.userInfo
+    return new SuccessModel
+}
 
 module.exports = {
-    isExist,register,login,deleteCurUser,changeInfo
+    isExist,register,login,deleteCurUser,changeInfo,changePassword,logout
 }

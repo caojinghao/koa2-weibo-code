@@ -1,11 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2020-09-08 16:40:06
- * @LastEditTime: 2020-09-16 11:42:41
+ * @LastEditTime: 2020-09-30 10:32:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/src/app.js
  */
+const path = require('path')
 const Koa = require('koa')
 const app = new Koa()
 const views = require('koa-views')
@@ -19,12 +20,15 @@ const { isProd } = require('./utils/env')
 const { REDIS_CONF} = require('./conf/db')
 const jwtKoa = require('koa-jwt')
 const { SESSION_SECRET_KEY } = require('./conf/secretKeys')
+const koaStatic = require('koa-static')
 
 const errViewRouter = require('./routes/view/error')
 const index = require('./routes/index')
 const users = require('./routes/users')
 const userViewRouter = require('./routes/view/user')
 const userApiRouter = require('./routes/api/user')
+const utilsApiRouter = require('./routes/api/utils')
+
 
 
 const {SECRET} = require('./conf/constant')
@@ -51,7 +55,8 @@ app.use(bodyparser({
 }))
 app.use(json())
 app.use(logger())
-app.use(require('koa-static')(__dirname + '/public'))
+app.use(koaStatic(__dirname + '/public'))
+app.use(koaStatic(path.join(__dirname,'..','uploadFiles')))
 
 
 // session 配置
@@ -85,6 +90,7 @@ app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
 app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
 app.use(userApiRouter.routes(), userApiRouter.allowedMethods())
+app.use(utilsApiRouter.routes(), utilsApiRouter.allowedMethods())
 app.use(errViewRouter.routes(), errViewRouter.allowedMethods()) //404 路由注册最下面
 
 // error-handling

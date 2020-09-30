@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-15 15:41:11
- * @LastEditTime: 2020-09-29 16:28:47
+ * @LastEditTime: 2020-09-30 14:50:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/src/services/user.js
@@ -70,8 +70,48 @@ async function deleteUser(userName){
     })
     return result>0
 }
-  
+/**
+ * @description: 更新用户信息
+ * @param {Object}  要修改的内容 {newPassword,newNickname, newPicture, newCity}
+ * @param {type} 查询条件{userName,password}
+ * @param {type} 
+ * @return {type} 
+ */
+async function updateUser(
+    {newPassword,newNickname, newPicture, newCity},
+    {userName,password}
+){
+// 拼接修改内容
+    const updateData = {}
+    if(newPassword){
+        updateData.password=newPassword
+    }
+    if(newNickname){
+        updateData.nickName=newNickname
+    }
+    if(newPicture){
+        updateData.picture=newPicture
+    }
+    if(newCity){
+        updateData.city=newCity
+    }
+    
+    //查询条件
+    const whereData = {
+        userName
+    }
+    if(password){
+        whereData.password = password
+    }
+    // 执行修改
+    const result = await User.update(updateData,{
+        where:whereData
+    })
+    return result[0]>0 //修改的行数 
+
+
+}
     
 module.exports = {
-    getUserInfo,createUser,deleteUser
+    getUserInfo,createUser,deleteUser,updateUser
 }

@@ -1,6 +1,14 @@
+/*
+ * @Author: your name
+ * @Date: 2020-09-29 16:37:59
+ * @LastEditTime: 2020-10-12 14:53:07
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /code-demo/koa2-weibo-code/src/validator/blog.js
+ */
 /**
  * @description 微博 数据格式校验
- * @author 双越老师
+ * @author Kevin
  */
 
 const validate = require('./_validate')

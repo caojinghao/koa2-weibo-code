@@ -1,7 +1,7 @@
 /*
  * @Author: Kevin
  * @Date: 2020-09-29 14:53:00
- * @LastEditTime: 2020-09-30 16:54:51
+ * @LastEditTime: 2020-09-30 17:31:08
  * @LastEditors: Please set LastEditors
  * @Description: api user yesy
  * @FilePath: /code-demo/koa2-weibo-code/test/user/login.test.js
@@ -81,7 +81,7 @@ test('修改基本信息应该成功',async()=>{
     expect(res.body.errno).toBe(0)
 })
 // 修改密码
-test('修改密码应该成功',async()=>{
+test('修改密码应该成功',async()=>{ 
     const res = await server
         .patch('/api/user/changePassword')
         .send({

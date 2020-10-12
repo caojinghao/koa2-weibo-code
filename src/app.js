@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-08 16:40:06
- * @LastEditTime: 2020-09-30 10:32:21
+ * @LastEditTime: 2020-10-12 11:21:45
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/src/app.js
@@ -23,8 +23,10 @@ const { SESSION_SECRET_KEY } = require('./conf/secretKeys')
 const koaStatic = require('koa-static')
 
 const errViewRouter = require('./routes/view/error')
-const index = require('./routes/index')
-const users = require('./routes/users')
+// const index = require('./routes/index')
+// const users = require('./routes/users')
+
+const blogViewRouter = require('./routes/view/blog')
 const userViewRouter = require('./routes/view/user')
 const userApiRouter = require('./routes/api/user')
 const utilsApiRouter = require('./routes/api/utils')
@@ -86,8 +88,9 @@ app.use(async (ctx, next) => {
 })
 
 // routes
-app.use(index.routes(), index.allowedMethods())
-app.use(users.routes(), users.allowedMethods())
+// app.use(index.routes(), index.allowedMethods())
+// app.use(users.routes(), users.allowedMethods())
+app.use(blogViewRouter.routes(), blogViewRouter.allowedMethods())
 app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
 app.use(userApiRouter.routes(), userApiRouter.allowedMethods())
 app.use(utilsApiRouter.routes(), utilsApiRouter.allowedMethods())

@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-09-08 16:40:06
- * @LastEditTime: 2020-10-12 11:48:21
+ * @LastEditTime: 2020-10-13 11:55:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/src/app.js
@@ -29,8 +29,10 @@ const errViewRouter = require('./routes/view/error')
 const blogViewRouter = require('./routes/view/blog')
 const userViewRouter = require('./routes/view/user')
 const blogHomeApiRouter = require('./routes/api/blog-home')
+const profileApiRouter = require('./routes/api/blog-profile')
 const userApiRouter = require('./routes/api/user')
 const utilsApiRouter = require('./routes/api/utils')
+
 
 
 
@@ -93,6 +95,8 @@ app.use(async (ctx, next) => {
 // app.use(users.routes(), users.allowedMethods())
 app.use(blogViewRouter.routes(), blogViewRouter.allowedMethods())
 app.use(userViewRouter.routes(), userViewRouter.allowedMethods())
+
+app.use(profileApiRouter.routes(), profileApiRouter.allowedMethods())
 app.use(blogHomeApiRouter.routes(), blogHomeApiRouter.allowedMethods())
 app.use(userApiRouter.routes(), userApiRouter.allowedMethods())
 app.use(utilsApiRouter.routes(), utilsApiRouter.allowedMethods())

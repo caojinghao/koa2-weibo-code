@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-12 11:09:52
- * @LastEditTime: 2020-10-13 17:49:30
+ * @LastEditTime: 2020-10-14 18:00:13
  * @LastEditors: Please set LastEditors
  * @Description: 微博 view 路由
  * @FilePath: /code-demo/koa2-weibo-code/src/routes/view/blog.js
@@ -11,7 +11,7 @@
 const router = require('koa-router')()
 const { loginRedirect } = require('../../middlewares/loginChecks')
 const { getProfileBlogList } = require('../../controller/blog-profile')
-// const { getSquareBlogList } = require('../../controller/blog-square')
+const { getSquareBlogList } = require('../../controller/blog-square')
 const { isExist } = require('../../controller/user')
 // const { getFans, getFollowers } = require('../../controller/user-relation')
 // const { getHomeBlogList } = require('../../controller/blog-home')
@@ -97,22 +97,22 @@ router.get('/profile/:userName', loginRedirect, async (ctx, next) => {
     })
 })
 
-// // 广场
-// router.get('/square', loginRedirect, async (ctx, next) => {
-//     // 获取微博数据，第一页
-//     const result = await getSquareBlogList(0)
-//     const { isEmpty, blogList, pageSize, pageIndex, count } = result.data || {}
+// 广场
+router.get('/square', loginRedirect, async (ctx, next) => {
+    // 获取微博数据，第一页
+    const result = await getSquareBlogList(0)
+    const { isEmpty, blogList, pageSize, pageIndex, count } = result.data || {}
 
-//     await ctx.render('square', {
-//         blogData: {
-//             isEmpty,
-//             blogList,
-//             pageSize,
-//             pageIndex,
-//             count
-//         }
-//     })
-// })
+    await ctx.render('square', {
+        blogData: {
+            isEmpty,
+            blogList,
+            pageSize,
+            pageIndex,
+            count
+        }
+    })
+})
 
 // // atMe 路由
 // router.get('/at-me', loginRedirect, async (ctx, next) => {

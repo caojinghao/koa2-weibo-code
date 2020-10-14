@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-12 16:03:58
- * @LastEditTime: 2020-10-12 16:07:47
+ * @LastEditTime: 2020-10-14 17:23:31
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/test/testUserInfo.js
@@ -11,5 +11,6 @@
  * 每次登录需要更新
  */
 module.exports={
-    COOKIE:'weibo.sid=MAEI6a9lodwYIucN1BxIMRak7AcTQLYN; weibo.sid.sig=ckwQGuwF4LP801315xH8uNL9qAQ',
+    Z_USER_NAME:'zhangsan',
+    Z_COOKIE:'weibo.sid=7lhQIPOFCEK_q09vrmcBgTx07xCj1LP7; weibo.sid.sig=_Fl2FKDGXC5REDlQc9YqgVe6wTI',
 }

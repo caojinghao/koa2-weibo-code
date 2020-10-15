@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-10-14 18:00:37
+ * @LastEditTime: 2020-10-15 16:35:22
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /code-demo/koa2-weibo-code/src/controller/blog-square.js
+ */
 /**
  * @description 广场页 controller
  * @author 双越老师
@@ -25,6 +33,6 @@ async function getSquareBlogList(pageIndex = 0) {
     })
 }
 
-module.exports = {
+module.exports = { 
     getSquareBlogList
 }

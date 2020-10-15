@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-10-12 17:31:27
- * @LastEditTime: 2020-10-13 18:24:18
+ * @LastEditTime: 2020-10-15 17:29:13
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /code-demo/koa2-weibo-code/src/views/profile.ejs
@@ -49,7 +49,11 @@
                     // atCount: userData.atCount
                 });%>
             </div>
-
+  <!-- 粉丝 -->
+  <%- include('widgets/fans', {
+    count: userData.fansData.count,
+    userList: userData.fansData.list
+})%>
         
 
 

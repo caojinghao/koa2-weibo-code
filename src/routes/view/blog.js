@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-12 11:09:52
- * @LastEditTime: 2020-10-14 18:00:13
+ * @LastEditTime: 2020-10-15 17:45:24
  * @LastEditors: Please set LastEditors
  * @Description: 微博 view 路由
  * @FilePath: /code-demo/koa2-weibo-code/src/routes/view/blog.js
@@ -13,7 +13,7 @@ const { loginRedirect } = require('../../middlewares/loginChecks')
 const { getProfileBlogList } = require('../../controller/blog-profile')
 const { getSquareBlogList } = require('../../controller/blog-square')
 const { isExist } = require('../../controller/user')
-// const { getFans, getFollowers } = require('../../controller/user-relation')
+const { getFans, getFollowers } = require('../../controller/user-relation')
 // const { getHomeBlogList } = require('../../controller/blog-home')
 // const { getAtMeCount, getAtMeBlogList, markAsRead } = require('../../controller/blog-at')
 
@@ -55,9 +55,9 @@ router.get('/profile/:userName', loginRedirect, async (ctx, next) => {
     const result = await getProfileBlogList(curUserName, 0)
     const { isEmpty, blogList, pageSize, pageIndex, count } = result.data
 
-    // // 获取粉丝
-    // const fansResult = await getFans(curUserInfo.id)
-    // const { count: fansCount, fansList } = fansResult.data
+    // 获取粉丝
+    const fansResult = await getFans(curUserInfo.id)
+    const { count: fansCount, fansList } = fansResult.data
 
     // // 获取关注人列表
     // const followersResult = await getFollowers(curUserInfo.id)
@@ -83,10 +83,10 @@ router.get('/profile/:userName', loginRedirect, async (ctx, next) => {
         userData: {
             userInfo: curUserInfo,
             isMe,
-            // fansData: {
-            //     count: fansCount,
-            //     list: fansList
-            // },
+            fansData: {
+                count: fansCount,
+                list: fansList
+            },
             // followersData: {
             //     count: followersCount,
             //     list: followersList

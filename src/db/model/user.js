@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2020-09-15 14:46:17
- * @LastEditTime: 2020-09-16 18:17:28
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /code-demo/koa2-weibo-code/src/db/model/user.js
- */
 /**
  * @description 用户数据模型
  * @author Kevin

@@ -59,14 +59,14 @@ router.get('/profile/:userName', loginRedirect, async (ctx, next) => {
     const fansResult = await getFans(curUserInfo.id)
     const { count: fansCount, fansList } = fansResult.data
 
-    // // 获取关注人列表
-    // const followersResult = await getFollowers(curUserInfo.id)
-    // const { count: followersCount, followersList } = followersResult.data
+    // 获取关注人列表
+    const followersResult = await getFollowers(curUserInfo.id)
+    const { count: followersCount, followersList } = followersResult.data
 
-    // // 我是否关注了此人？
-    // const amIFollowed = fansList.some(item => {
-    //     return item.userName === myUserName
-    // })
+    // 我是否关注了此人？
+    const amIFollowed = fansList.some(item => {
+        return item.userName === myUserName
+    })
 
     // // 获取 @ 数量
     // const atCountResult = await getAtMeCount(myUserInfo.id)
@@ -87,11 +87,11 @@ router.get('/profile/:userName', loginRedirect, async (ctx, next) => {
                 count: fansCount,
                 list: fansList
             },
-            // followersData: {
-            //     count: followersCount,
-            //     list: followersList
-            // },
-            // amIFollowed,
+            followersData: {
+                count: followersCount,
+                list: followersList
+            },
+            amIFollowed,
             // atCount
         }
     })

@@ -1,0 +1,96 @@
+2020-11-26 18:13:46:   <-- GET /css/list.css
+2020-11-26 18:13:46:   <-- GET /javascripts/jquery.caret.js
+2020-11-26 18:13:46:   --> GET /css/list.css 200 12ms 548b
+2020-11-26 18:13:46:   --> GET /javascripts/jquery.caret.js 200 7ms 12.88kb
+2020-11-26 18:13:46:   <-- GET /javascripts/query-object.js
+2020-11-26 18:13:46:   --> GET /javascripts/query-object.js 200 1ms 9.7kb
+2020-11-26 18:13:46:   <-- GET /api/user/getAtList
+2020-11-26 18:13:46: Executing (default): SELECT count(`userRelation`.`id`) AS `count` FROM `userRelations` AS `userRelation` LEFT OUTER JOIN `users` AS `user` ON `userRelation`.`followerId` = `user`.`id` WHERE `userRelation`.`userId` = 1 AND `userRelation`.`followerId` != 1;
+2020-11-26 18:13:46: Executing (default): SELECT `userRelation`.`id`, `userRelation`.`userId`, `userRelation`.`followerId`, `userRelation`.`createdAt`, `userRelation`.`updatedAt`, `user`.`id` AS `user.id`, `user`.`userName` AS `user.userName`, `user`.`nickName` AS `user.nickName`, `user`.`picture` AS `user.picture` FROM `userRelations` AS `userRelation` LEFT OUTER JOIN `users` AS `user` ON `userRelation`.`followerId` = `user`.`id` WHERE `userRelation`.`userId` = 1 AND `userRelation`.`followerId` != 1 ORDER BY `userRelation`.`id` DESC;
+2020-11-26 18:13:46: GET /api/user/getAtList - 47ms
+2020-11-26 18:13:46:   --> GET /api/user/getAtList 200 53ms 33b
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 10ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 3ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 2ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:14:46:   <-- GET /error
+2020-11-26 18:14:46:   xxx GET /error 500 1ms -
+2020-11-26 18:15:16:   <-- GET /javascripts/my-ajax.js
+2020-11-26 18:15:16:   --> GET /javascripts/my-ajax.js 200 11ms 2.45kb
+2020-12-28 15:35:42:   <-- GET /javascripts/my-ajax.js
+2020-12-28 15:35:42:   --> GET /javascripts/my-ajax.js 200 10ms 2.45kb
+2020-12-28 15:36:05:   <-- GET /css/main.css
+2020-12-28 15:36:05:   --> GET /css/main.css 200 1ms 661b
+2020-12-28 15:36:10:   <-- GET /css/list.css
+2020-12-28 15:36:10:   --> GET /css/list.css 200 3ms 548b
+2020-12-28 15:38:52:   <-- GET /css/list.css
+2020-12-28 15:38:52:   --> GET /css/list.css 200 10ms 548b
+2020-12-28 15:38:52:   <-- GET /javascripts/query-object.js
+2020-12-28 15:38:52:   --> GET /javascripts/query-object.js 200 2ms 9.7kb
+2020-12-28 15:38:52:   <-- GET /favicon.ico
+2020-12-28 15:38:52: GET /favicon.ico - 7ms
+2020-12-28 15:38:52:   --> GET /favicon.ico 200 10ms 2.26kb
+2020-12-28 15:38:55:   <-- GET /api/square/loadMore/1
+2020-12-28 15:38:55: Executing (default): SELECT count(`blog`.`id`) AS `count` FROM `blogs` AS `blog` INNER JOIN `users` AS `user` ON `blog`.`userId` = `user`.`id`;
+2020-12-28 15:38:55: Executing (default): SELECT `blog`.`id`, `blog`.`userId`, `blog`.`content`, `blog`.`image`, `blog`.`createdAt`, `blog`.`updatedAt`, `user`.`id` AS `user.id`, `user`.`userName` AS `user.userName`, `user`.`nickName` AS `user.nickName`, `user`.`picture` AS `user.picture` FROM `blogs` AS `blog` INNER JOIN `users` AS `user` ON `blog`.`userId` = `user`.`id` ORDER BY `blog`.`id` DESC LIMIT 5, 5;
+2020-12-28 15:38:55: GET /api/square/loadMore/1 - 41ms
+2020-12-28 15:38:55:   --> GET /api/square/loadMore/1 200 43ms 5.99kb
+2020-12-28 15:38:57:   <-- GET /api/square/loadMore/2
+2020-12-28 15:38:57: Executing (default): SELECT count(`blog`.`id`) AS `count` FROM `blogs` AS `blog` INNER JOIN `users` AS `user` ON `blog`.`userId` = `user`.`id`;
+2020-12-28 15:38:57: Executing (default): SELECT `blog`.`id`, `blog`.`userId`, `blog`.`content`, `blog`.`image`, `blog`.`createdAt`, `blog`.`updatedAt`, `user`.`id` AS `user.id`, `user`.`userName` AS `user.userName`, `user`.`nickName` AS `user.nickName`, `user`.`picture` AS `user.picture` FROM `blogs` AS `blog` INNER JOIN `users` AS `user` ON `blog`.`userId` = `user`.`id` ORDER BY `blog`.`id` DESC LIMIT 10, 5;
+2020-12-28 15:38:57: GET /api/square/loadMore/2 - 6ms
+2020-12-28 15:38:57:   --> GET /api/square/loadMore/2 200 9ms 3.92kb
+2020-12-28 16:37:13:   <-- GET /css/list.css
+2020-12-28 16:37:13:   --> GET /css/list.css 200 2ms 548b
+2020-12-28 16:37:13:   <-- GET /css/jquery.atwho.css
+2020-12-28 16:37:13:   --> GET /css/jquery.atwho.css 200 2ms 1.28kb
+2020-12-28 16:37:13:   <-- GET /javascripts/query-object.js
+2020-12-28 16:37:13:   --> GET /javascripts/query-object.js 200 2ms 9.7kb
+2020-12-28 17:48:59:   <-- GET /javascripts/my-ajax.js
+2020-12-28 17:48:59:   --> GET /javascripts/my-ajax.js 200 10ms 2.45kb
+2020-12-28 17:49:24:   <-- GET /javascripts/my-ajax.js
+2020-12-28 17:49:24:   --> GET /javascripts/my-ajax.js 200 2ms 2.45kb
+2020-12-28 17:50:12:   <-- GET /javascripts/my-ajax.js
+2020-12-28 17:50:12:   --> GET /javascripts/my-ajax.js 200 9ms 2.45kb
+2020-12-28 17:50:13:   <-- GET /javascripts/my-ajax.js
+2020-12-28 17:50:13:   --> GET /javascripts/my-ajax.js 200 2ms 2.45kb
+2020-12-29 09:49:04:   <-- GET /javascripts/my-ajax.js
+2020-12-29 09:49:04:   --> GET /javascripts/my-ajax.js 200 8ms 2.45kb
+2020-12-29 09:49:18:   <-- GET /javascripts/my-ajax.js
+2020-12-29 09:49:18:   --> GET /javascripts/my-ajax.js 200 2ms 2.45kb
+2020-12-29 09:49:19:   <-- GET /javascripts/my-ajax.js
+2020-12-29 09:49:19:   --> GET /javascripts/my-ajax.js 200 1ms 2.45kb

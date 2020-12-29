@@ -1,0 +1,1408 @@
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:14:46: server error Error
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/routes/view/error.js:9:11
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/node_modules/koa-compose/index.js:42:32) {
+  request: {
+    method: 'GET',
+    url: '/error',
+    header: {
+      host: 'localhost:3000',
+      connection: 'keep-alive',
+      'cache-control': 'max-age=0',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9',
+      cookie: 'weibo.sid=ycvHfyBj6Zid66F5KGXOWGdAgPMDURLX; weibo.sid.sig=32Q4gf8MrOj3GMMLEEjB2pe-ROM'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/error',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-11-26 18:30:30: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-11-26 18:30:30: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-11-26 18:30:30: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-11-26 18:30:31: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:33: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:33: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:34: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:34: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:35: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:37: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:40: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:45: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2020-12-28 15:35:53: redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+ReferenceError: env is not defined
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:41
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:41
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:41
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:41
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:41
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/conf/db.js:41
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/kevin.cao/Desktop/code-demo/koa2-weibo-code/src/app.js:20:23)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at Module.Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:72:18)

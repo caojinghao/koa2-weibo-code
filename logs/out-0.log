@@ -1,0 +1,19 @@
+2020-12-29 09:49:04:   <-- GET /
+2020-12-29 09:49:04: Executing (default): SELECT count(`blog`.`id`) AS `count` FROM `blogs` AS `blog` LEFT OUTER JOIN `users` AS `user` ON `blog`.`userId` = `user`.`id` INNER JOIN `userRelations` AS `userRelation` ON `blog`.`userId` = `userRelation`.`followerId` AND `userRelation`.`userId` = 1;
+2020-12-29 09:49:04: Executing (default): SELECT `blog`.`id`, `blog`.`userId`, `blog`.`content`, `blog`.`image`, `blog`.`createdAt`, `blog`.`updatedAt`, `user`.`id` AS `user.id`, `user`.`userName` AS `user.userName`, `user`.`nickName` AS `user.nickName`, `user`.`picture` AS `user.picture`, `userRelation`.`id` AS `userRelation.id`, `userRelation`.`userId` AS `userRelation.userId`, `userRelation`.`followerId` AS `userRelation.followerId` FROM `blogs` AS `blog` LEFT OUTER JOIN `users` AS `user` ON `blog`.`userId` = `user`.`id` INNER JOIN `userRelations` AS `userRelation` ON `blog`.`userId` = `userRelation`.`followerId` AND `userRelation`.`userId` = 1 ORDER BY `blog`.`id` DESC LIMIT 0, 10;
+2020-12-29 09:49:04:   xxx GET / 500 294ms -
+2020-12-29 09:49:04:   <-- GET /error
+2020-12-29 09:49:04: GET /error - 6ms
+2020-12-29 09:49:04:   --> GET /error 200 8ms 2.3kb
+2020-12-29 09:49:04:   <-- GET /css/main.css
+2020-12-29 09:49:04:   --> GET /css/main.css 200 2ms 661b
+2020-12-29 09:49:18:   <-- GET /error
+2020-12-29 09:49:18: GET /error - 2ms
+2020-12-29 09:49:18:   --> GET /error 200 4ms 2.3kb
+2020-12-29 09:49:18:   <-- GET /css/main.css
+2020-12-29 09:49:18:   --> GET /css/main.css 200 1ms 661b
+2020-12-29 09:49:19:   <-- GET /javascripts/query-object.js
+2020-12-29 09:49:19:   --> GET /javascripts/query-object.js 200 1ms 9.7kb
+2020-12-29 09:49:19:   <-- GET /favicon.ico
+2020-12-29 09:49:19: GET /favicon.ico - 2ms
+2020-12-29 09:49:19:   --> GET /favicon.ico 200 3ms 2.26kb
